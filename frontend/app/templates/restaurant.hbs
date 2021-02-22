@@ -158,6 +158,12 @@
               {{model.restaurant.description}}
             </p>
           </div>
+          <div id="map" class="restaurant-card">
+            <h2 class="restaurant-card-title">
+              Mapa
+              <GMap class="map" @lat="51.508530" @lng="-0.076132" @zoom={{12}} />
+            </h2>
+          </div>
           <div id="menu" class="restaurant-card">
             <h2 class="restaurant-card-title floating">
               Menu:

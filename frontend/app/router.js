@@ -44,6 +44,9 @@ Router.map(function() {
       this.route("delete", { path: "delete/:id" });
     });
 
+    this.route("statistics", function() {
+    });
+
     this.route("settings");
   });
 
